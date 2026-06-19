@@ -33,9 +33,23 @@ a:hover {
   background-color: #fff;
   padding: 10px 0;
   box-shadow: var(--shadow-sm);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+}
+
+.navbar-toggler i {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .navbar .active {
