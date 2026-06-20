@@ -52,6 +52,12 @@ a:hover {
   color: rgba(0, 0, 0, 0.55);
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
 .navbar .active {
   border-bottom: none;
 }
@@ -357,6 +363,13 @@ h4 {
 }
 
 /* ===== RESPONSIVE ===== */
+@media (max-width: 991px) {
+  .carousel-caption {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+}
+
 @media (max-width: 767px) {
   .title-bar {
     height: 72px;
