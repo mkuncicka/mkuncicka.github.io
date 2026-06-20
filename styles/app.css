@@ -34,14 +34,26 @@ a:hover {
   background-color: #fff;
   padding: 5px 0;
   height: 80px;
-  display: flex;
-  align-items: center;
   box-shadow: var(--shadow-sm);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    padding: 8px 0 14px;
+    z-index: 999;
+  }
 }
 
 .navbar-light .navbar-toggler-icon {
