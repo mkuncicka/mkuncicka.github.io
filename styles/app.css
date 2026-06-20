@@ -365,6 +365,12 @@ h4 {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 991px) {
+  .carousel-item img {
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+  }
+
   .carousel-caption {
     margin-bottom: 0;
     padding-bottom: 10px;
