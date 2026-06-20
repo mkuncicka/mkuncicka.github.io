@@ -270,7 +270,7 @@ h4 {
 .maroon-background { background-color: var(--maroon) !important; }
 
 .container {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .container .row div {
@@ -355,26 +355,6 @@ h4 {
   font-weight: 700;
 }
 
-/* ===== FOOTER ===== */
-.footer {
-  background: #222;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer .text-white {
-  transition: opacity var(--ease);
-}
-
-.footer .text-white:hover {
-  opacity: 0.8;
-}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 991px) {
